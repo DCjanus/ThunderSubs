@@ -1,5 +1,5 @@
 {
-  "name": "dc_sub_downloader",
+  "name": "dc",
   "version": "1.0.0",
   "description": "逆向迅雷影音字幕API做的垃圾字幕下载器",
   "main": "app/main.js",
