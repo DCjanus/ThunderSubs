@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>迅雷字幕下载器</title>
+    <link rel="stylesheet" href="./css/index.css" />
+</head>
+
+<body>
+    <div id="drop_area" style="word-wrap: break-word">
+        将视频文件拖入窗口内
+        <div></div>
+    </div>
+</body>
+
+<script>
+    var fs = require("fs");
+    var base = require("./base");
+    var holder = document.querySelector("div#drop_area");
+    holder.ondragover = holder.ondragleave = holder.ondragend = function () {
+        return false;
+    };
+
+    holder.ondrop = function (e) {
+        e.preventDefault();
+        var file_list = e.dataTransfer.files;
+        var file_name_list = [];
+        for (var i = 0; i < file_list.length; i++) {
+            base.processOneMovie(file_list[i]);
+            file_name_list.push(file_list[i].name);
+        }
+        holder.style.fontSize = "16px";
+        holder.innerHTML = file_name_list.join("<br>");
+    };
+</script>
+
+</html>

@@ -1,0 +1,19 @@
+{
+  "name": "dc_sub_downloader",
+  "version": "1.0.0",
+  "description": "逆向迅雷影音字幕API做的垃圾字幕下载器",
+  "main": "app/main.js",
+  "author": "DCjanus",
+  "license": "ISC",
+  "dependencies": {
+    "electron": "^1.4.13",
+    "request": "^2.80.0"
+  },
+  "devDependencies": {
+    "electron-packager": "^8.5.2",
+    "electron": "^1.4.13"
+  },
+  "scripts": {
+    "start": "electron ."
+  }
+}

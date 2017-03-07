@@ -1,0 +1,16 @@
+html,
+body,
+#drop_area {
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+
+#drop_area {
+    line-height: 100%;
+    font-size: 40px;
+    color: #d3d3d3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
