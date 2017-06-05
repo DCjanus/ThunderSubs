@@ -13,3 +13,5 @@
 于是后来用C#写了个WPF版本，需要下载可以直接查看release，已经打包
 
 [下载页面](https://github.com/DCjanus/ThunderSubs/releases)
+
+[流程解析](https://blog.dcjanus.com/posts/api_for_xunlei_subscene/)
