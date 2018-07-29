@@ -15,3 +15,7 @@
 [下载页面](https://github.com/DCjanus/ThunderSubs/releases)
 
 [流程解析](https://blog.dcjanus.com/posts/api_for_xunlei_subscene/)
+
+# 其他版本
+
+感谢[weaming](https://github.com/weaming)提供的Python命令行版： <https://github.com/weaming/thunder-subtitle>
