@@ -1,16 +1,8 @@
-随着各种字幕网站的关停，找外挂字幕越来越麻烦
+逆向迅雷影音字幕API，封装为单独字幕下载器。
 
-后来发现迅雷影音的在线字幕匹配功能非常好用
+本REPO下有C#版与Electron版，但二者均为当初练手所写，代码质量很糟糕，实现也较为简单，有兴趣的朋友可以自行实现。
 
-但是更喜欢PotPlay播放器+Zune皮肤的我很不喜欢迅雷影音的播放功能
-
-于是尝试逆向出迅雷影音的字幕搜索API
-
-折腾了几个小时，终于搞定，暂时做个半成品，代码很简单，有兴趣的小伙伴可以自己用其他语言实现
-
-做了个简单的字幕下载小工具给自己用，一开始使用Electron，但是打包之后占用空间居然达到了100M
-
-于是后来用C#写了个WPF版本，需要下载可以直接查看release，已经打包
+已经很久没有使用Windows，故将不会继续维护这两个版本，目前主要维护的将会是[Rust命令行版](https://github.com/DCjanus/lone-ranger)。
 
 [下载页面](https://github.com/DCjanus/ThunderSubs/releases)
 
@@ -19,3 +11,7 @@
 # 其他版本
 
 感谢[weaming](https://github.com/weaming)提供的Python命令行版： <https://github.com/weaming/thunder-subtitle>
+
+# 播放器安利
+
+Windows用户：[PotPlayer播放器](https://potplayer.daum.net/)+[Zune改版皮肤](http://tieba.baidu.com/p/3063231978?pid=51087618953&cid=#51087618953)(需要在D3D模式下使用)
